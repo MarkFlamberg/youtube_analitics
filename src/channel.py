@@ -63,8 +63,6 @@ class Channel:
         """Метод сложения"""
         return int(self.subscriber_count) == int(other.subscriber_count)
 
-
-
     @property
     def channel_id(self):
         return self.__channel_id
